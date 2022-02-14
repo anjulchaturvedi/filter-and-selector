@@ -1,0 +1,58 @@
+* {
+    transition: 0.3s all ease;
+    outline: none;
+  }
+  body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    flex-direction: column;
+    background-color: rgba(56, 56, 56, 0.212);
+  }
+  table {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 50px rgba(0, 0, 0, 0.301);
+    border-collapse: collapse;
+  }
+  
+  table td,
+  table th {
+    padding: 10px;
+    border-bottom: 2px solid black;
+  }
+  .filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .grow {
+    flex-grow: 1;
+  }
+  
+  #log {
+    padding: 10px;
+    color: red;
+  }
+  button,
+  select {
+    border: none;
+    padding: 5px 0px 5px 0px;
+    background-color: rgba(0, 0, 0, 0.253);
+  }
+  input {
+    border: none;
+    padding: 7px 0px 7px 8px;
+    color: black;
+    border-radius: 10px 0px 0px 10px;
+  }
+  #os {
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+  tbody tr:last-child {
+    border: 0px !important;
+  }
